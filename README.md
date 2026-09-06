@@ -52,8 +52,8 @@ After completing encode, node send chunk back to client.
 
 After all chunks are encoded, all chunks are concatenated into final file and all non-video streams are added back.
 
-It's important to notice chat encode parameters takes ffmpeg parameters for encoding.
-So syntax syntax is identical between them.
+It's important to notice that encode parameters takes ffmpeg parameters for encoding.
+So the syntax is identical between them.
 For example : `--encoder-params " -c:v libx264 -preset slower -crf 23"`
 will encode file to AVC with those settings.
 
@@ -81,7 +81,7 @@ Options:
           Duration of each video segment in seconds
   -h, --help
           Print help
-  -V, --versionc
+  -V, --version
           Print version
 ```
 
